@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>iDig</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--
+	    <link rel="stylesheet" href="css/github-markdown.css">
+	-->
+
+	<style>
+	  body {
+	  background-color: rgb(240,240,240);
+	  }
+	  
+	  .markdown-body {
+	  font-size: 1.1em;
+          min-width: 200px;
+          max-width: 700px;
+          margin: 0 auto;
+          padding: 30px;
+	  }
+	  .container {
+	  width:90%;
+	  }
+	  .video-responsive {
+	  overflow:hidden;
+	  padding-bottom:75%;
+	  position:relative;
+	  height:0;
+	  }
+	  .video-responsive iframe {
+	  left:0;
+	  top:0;
+	  height:100%;
+	  width:100%;
+	  position:absolute;
+	  }
+	</style>
+
+	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <style>
+          body { font-family: 'Open Sans', sans-serif; }
+	</style>
+	-->
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+	
+	<center>
+	  <br/>
+	  <div class="container">
+	    <div class="video-responsive">
+	      <iframe src="//www.youtube.com/embed/gyBPYfEFE-k?rel=0&showinfo=0&autoplay=0" frameborder="0" allowfullscreen></iframe>
+	    </div>
+	  </div>
+	  <br/>
+	  <p><a href="https://itunes.apple.com/us/app/idig-archaeology/id953353960?mt=8"><img src="Download_on_the_App_Store_Badge_US-UK_135x40.svg"></a></p>
+	</center>
+
+	<article class="markdown-body">
+	  
+	  <h1>iDig</h1>
+	  
+<h2>Overview</h2>
+
+<p>iDig is a tool for archaeologists. It has been developed and field-tested at the Athenian Agora Excavations of the American School of Classical Studies in Greece (<a href="http://agathe.gr">http://agathe.gr</a>).</p>
+
+<p>iDig is designed to produce immediate digital records in the field and is heavily optimized for excavation workflows.</p>
+
+<p>iDig connects wirelessly to Leica Total Stations and keeps excavation data in sync on multiple iPads, allowing for a much higher degree of collaboration during the excavation process.</p>
+
+<p>Scanned drawings and plans can be quickly imported and georeferenced right in the app. Custom fields can be added and excavation records from previous seasons can be imported and connected to the current work for better overall data integration.</p>
+
+<p>Excavation data can be exported in standard UTF–8 tab-delimited format from the built-in web server. Incremental reports can be designed and printed out or saved as simple URL bookmarks.&nbsp;</p>
+
+<p>Using animation, an excavator can see and track data from a number of useful perspectives: top plan, cross section, and spatial and temporal matrix layouts. Currently iDig supports geospatial searching of the archival excavation data at <a href="http://ascsa.net">http://ascsa.net</a> and later versions will allow searching of other excavation archives as well.</p>
+
+<p>The version of iDig released here contains unpublished data from two trenches excavated in 2013. The formal study of this data will be published in Hesperia, the official journal of the American School of Classical Studies at Athens (<a href="http://ascsa.edu.gr">http://ascsa.edu.gr</a>).</p>
+
+<h2>Basics</h2>
+
+<p><img src="http://idig.tips/images/55-network.png" alt="layout button"> &nbsp; <strong>Layouts</strong></p>
+
+<p>Use the layouts button to select different layouts such as plan and cross section, or double tap on the plan to toggle between the current and previous layouts. Watch the items animate into new configurations when you change layouts.</p>
+
+<p>The following layouts are currently available:</p>
+
+<ul>
+<li>Plan – a top plan bird’s-eye view of the items</li>
+<li>Relationships – a graph of the relationships between items</li>
+<li>Temporal Matrix – a relationship view showing what is earlier and later</li>
+<li>Spatial Matrix – a relationship view showing what is above and below</li>
+<li>Cross Section – a side view of the items as if cut by a vertical plane</li>
+<li>Index – an icon view of the items</li>
+</ul>
+
+<p><img src="http://idig.tips/images/187-pencil.png" alt="pencil button"> &nbsp; <strong>Pencil</strong></p>
+
+<p>The pencil is a tool for selecting items and drawing cross sections. Tap the pencil button to enable drawing on the screen (the pencil button will turn red when drawing is enabled).</p>
+
+<ul>
+<li>Draw a circle around items to select them and hide everything else.</li>
+<li>Draw a straight line to create a cross section.</li>
+</ul>
+
+<p><em>Tip: Circling clockwise will select items that are completely inside the circle. A counter-clockwise circle is less strict and will select anything the circle touches.</em></p>
+
+<p>Items can be selected from any layout using the pencil. Often it is useful to switch layouts, circle the items you are interested in (the other items will hide), and then switch back to the original layout.</p>
+
+<p>The pencil button turns blue when items are hidden. Double tap a blue pencil to show all items again.</p>
+
+<p><em>Tip: If an item is blocking your view, hold down on it and drag it off to the side. Any item not in its proper place will be red. Double tap a red item to make it return to where it belongs.</em></p>
+
+<p><img src="http://idig.tips/images/77-ekg.png" alt="status button"> &nbsp; <strong>Status</strong></p>
+
+<p>The status button allows you to select items with a particular status.</p>
+
+<p><img src="http://idig.tips/images/15-tags.png" alt="type button"> &nbsp; <strong>Types</strong></p>
+
+<p>The types button allows you to select items of a particular type, such as features, contexts, and objects.</p>
+
+<p><img src="http://idig.tips/images/215-subscription.png" alt="home button"> &nbsp; <strong>Start Over</strong></p>
+
+<p>iDig begins with all items visible on a top plan. You can always return to this initial view by tapping the “start over” button in the top left corner of the screen.</p>
+
+<p><em>Technical Description: The pencil, status, and types buttons function as combination filters. This means that you can select a certain area with the pencil, select certain types of items, select a certain status, and the resulting view will be only those items that meet all filter criteria. (The text search box contributes to the final view as well.) Any button that is actively filtering will turn blue. Double tapping a blue button will reset that particular filter. Tapping the “start over” button simply resets the filters, resulting in all items being displayed on the initial plan layout again.</em></p>
+
+<center>
+    <br>
+  <div class="video-responsive">
+    <iframe src="//www.youtube.com/embed/xGewRa_rgeI?rel=0&amp;showinfo=0&amp;autoplay=0" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+    <br>
+</center>
+
+<h2>Trenches and Plans</h2>
+
+<p>In iDig, items are organized into trenches and trenches are associated with a background plan. You can select the current trench by tapping on the trench title (above the list of items) and you can select the current plan by tapping on the plan title (above the displayed plan).</p>
+
+<p><img src="http://idig.tips/images/19-gear.png" alt="settings button"> &nbsp; <strong>Settings</strong></p>
+
+<p>The settings button opens up the settings panel, where trenches and plans can be created and edited.</p>
+
+<p><img src="http://idig.tips/images/94Hnd.png" alt="action button"> &nbsp; <strong>Action</strong></p>
+
+<p>The action button provides context-dependent actions you can perform on items, such as copying and pasting items between trenches.</p>
+
+<p><img src="http://idig.tips/images/05-shuffle.png" alt="sort button"> &nbsp; <strong>Sort</strong></p>
+
+<p>Press the sort button to toggle sorting the list of items by number or by title.</p>
+
+<h2>Georeferencing Plans</h2>
+
+<p>You can import georeferenced plans into iDig and immediately use them. iDig uses raster image files for background plans (up to a maximum size of 2048 x 2048 pixels) and assumes a meter-based Cartesian coordinate system.</p>
+
+<p><em>Tip: iDig was designed primarily for use with local grid systems. If you plan on using longitute and latitude coordinates or large UTM coordinates inside iDig, then you should only use Apple devices with 64bit architectures (Apple's A7 chip or newer).</em></p>
+
+<p><em>Tip: To import georeferenced plans, copy the image files and corresponding world files (“.wld” or “.tfw”) into the iDig <a href="http://support.apple.com/en-us/HT201301">File Sharing</a> folder via iTunes.</em></p>
+
+<p>You can also import non-georeferenced plans and then georeference the plans inside iDig. Georeferencing will link real-world coordinates with designated locations on a plan.</p>
+
+<ul>
+<li>After importing a new plan, select “Georeference plan” from the action button menu.</li>
+<li>Add at least 3 control points by double tapping known locations on the plan for which you have real-world (x,y) meter coordinates. (This typically involves tapping on places where grid lines meet or on fixed points.)</li>
+<li>Edit the values for each control point by tapping on the corresponding (x,y,z) point values. Append the real-world coordinates to each set of values. For example, if the (x,y,z) point values are “156, 116, 0” and the (x,y) real-world coordinates for this point are “539.314 meters west, 452.99 meters north,” then after editing the values, they should read: “156, 116, 0, 539.314, 452.99”.</li>
+<li>Tap the “Georeference Plan” button that appears when you have at least three control points established.</li>
+</ul>
+
+<p><em>Tip: Detailed georeferencing instructions are included under the “?” button when you are editing points on any non-georeferenced plan.</em></p>
+
+<center>
+    <br>
+  <div class="video-responsive">
+    <iframe src="//www.youtube.com/embed/2W_rMqb3VcQ?rel=0&amp;showinfo=0&amp;autoplay=0" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+    <br>
+</center>
+
+<h2>Creating and Editing Items</h2>
+
+<p><img src="http://idig.tips/images/436-plus.png" alt="plus button"> &nbsp; <strong>Create New Item</strong></p>
+
+<p>Tap the “create new item” button to create a new item and open up the editor.</p>
+
+<p>Here you can select an item type (feature, context, object, etc.), edit fields (title, description, status, etc.), add spatial information (points, lines, and polygons), and establish relationships between items (“is below,” “is after,” “belongs to,” etc.).</p>
+
+<p><em>Tip: Tap the &nbsp;<img src="http://idig.tips/images/338-enter-fullscreen.png" alt="full screen button">&nbsp; “full screen” button to edit an item in a full screen window.</em></p>
+
+<p>iDig uses the following nomenclature for item types:</p>
+
+<ul>
+<li>Section – a cross section that represents a specific stratigraphic sequence</li>
+<li>Feature – an entity distinct from its surroundings that usually represents a specific human activity, such as the building of a wall, the paving of a road, or the digging of a pit</li>
+<li>Context – a single stratigraphic unit that has distinguishable physical characteristics and which can be interpreted as functionally or chronologically relevant to the history of the site</li>
+<li>Object – an artifact or natural entity that may be of value in the study of type, style, chronology, or human activity</li>
+<li>Lot – an assemblage of material from one or more contexts representing a single archaeological phase</li>
+<li>Other – benchmarks, measurements, etc.</li>
+</ul>
+
+<p>Each item in iDig has a distinct set of fields: a context, for example, has fields concerned with soil composition and stratigraphy, while an object has fields related to shape and form. You can also add your own custom fields and controlled vocabulary lists to match your own excavation’s recording conventions and nomenclature (see the technical details section for more information on adding custom fields).</p>
+
+<p>Spatial information can be added to items by selecting “add points” and then using one of the following techniques:</p>
+
+<ul>
+<li>Double tap on the plan to create a “touch point” with (x,y,z) values. Tap on the (x,y,z) numbers to edit them.</li>
+<li>Tap the pencil button and then draw on the plan to create a series of touch points.</li>
+<li>Use a Leica Total Station and capture points wirelessly as they are taken (see the technical details section for setting up the Total Station with a wireless bridge).</li>
+</ul>
+
+<p>Tap the “close polygon” button underneath the list of points to close a series of three or more points into a polygon (a closed polygon is defined as a list of points where the first point is identical to the last point).</p>
+
+<p><em>Tip: You can adjust the maximum number of coordinate digits that iDig displays before and after a decimal point. In the settings panel under “Show Maximum Digits,” specify the maximum number of digits that you want to display by typing those numbers before and after the decimal point. For example, “5.3” indicates a maximum of five digits before the decimal point and three after.</em></p>
+
+<p>You can establish Relationships between any two items. iDig currently supports three spatial relationships (is above, is below, is next to), three temporal relationships (is after, is before, is coeval with), and two dependent relationships (belongs to, includes). Tap “add new relation” to create a new relation between items. These relationships are used to create the dynamic matrix layouts.</p>
+
+<p><em>Tip: Double tapping a relation line will open up the related item.</em></p>
+
+<center>
+    <br>
+  <div class="video-responsive">
+    <iframe src="//www.youtube.com/embed/0jXUhSkjTW4?rel=0&amp;showinfo=0&amp;autoplay=0" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+    <br>
+</center>
+
+<h2>Special Pencils</h2>
+
+<p>Holding down on the pencil button will open a menu from which you can select either the “Camp” or “Talcott” pencil. When you circle an area with one of these pencils, a special geospatial search will be performed.</p>
+
+<p><img src="http://idig.tips/images/pencil-camp.png" alt="camp pencil"> &nbsp; <strong>Camp’s Pencil</strong></p>
+
+<p>Camp’s pencil will find the lowest items in an area and is useful for connecting current excavation work to previous work.</p>
+
+<p><img src="http://idig.tips/images/pencil-talcott.png" alt="talcott pencil"> &nbsp; <strong>Talcott’s Pencil</strong></p>
+
+<p>Talcott’s pencil will find all items in an area and is useful for searching previous excavation work.</p>
+
+<p>Both of these special pencils will crop item boundaries to the selected area. Select “Tidy Up Cropped Items” from the action button menu to reset the item boundaries to their full extents.</p>
+
+<p><em>Tip: If “Connect to Archive” is enabled in the settings panel, then these pencils will also search the archives at ascsa.net and import any items in the selected area. Select “Tidy Up Archived Items” from the action button menu to clear out these archived items.</em></p>
+
+<h2>Trenchmates</h2>
+
+<p>Turn on “Trenchmates” in the settings panel to begin synchronizing with other devices.</p>
+
+<p>Trenchmates provides remote read-only access to other devices. Synchronization with peers is not automatic and all remote changes must be approved by you.</p>
+
+<p>Enter a “Shared Secret” in the settings panel to control access. Only devices using the same shared secret will be able to communicate with each other.</p>
+
+<p><em>Tip: When Trenchmates is turned on, an http address will be displayed in the settings panel that will allow you to access or export trench data via a web browser. When accessing a device with a shared secret, use the shared secret as the password when prompted.</em></p>
+
+<p><img src="http://idig.tips/images/gray.png" alt="trenchmates gray button"> &nbsp; <img src="http://idig.tips/images/yellow.png" alt="trenchmates yellow button"> &nbsp; <img src="http://idig.tips/images/green.png" alt="trenchmates green button"> &nbsp; <strong>Sync with Trenchmates</strong></p>
+
+<p>After turning on Trenchmates, you can begin syncing with peers using the colored ball in the menu bar. Tap the ball to sync with peers on the same wireless network. If the ball turns yellow, then there are data conflicts between you and your peers. Tap the yellow ball to bring up the conflict resolution panel. After all conflicts are resolved, the ball will turn green.</p>
+
+<p>Turn on “Conflict Resolution Suggestions” in the settings panel to pre-select the most recently modified version of an item as the version to keep: you will still be shown all versions and have an opportunity to accept or reject specific changes. </p>
+
+<p>All conflicts should be carefully reviewed. It is possible for an item to be modified simultaneously by multiple peers. The conflict resolution panel will provide you with options for selecting a version to keep or for merging multiple versions together.</p>
+
+<p><em>Tip: You can quickly copy a trench to another device using Trenchmates: simply create a new empty trench with the same name as the trench you want to copy, then sync with a peer who has that trench and all existing items will be imported.</em></p>
+
+<h2>Backups and Data Safety</h2>
+
+<p>Archaeological excavation is inherently a destructive process, and when data is lost, it is difficult if not impossible to recreate. For this reason, iDig has been designed to be extremely paranoid about losing data. Several mechanisms have been implemented in order to make backing up your data easy and losing data difficult.</p>
+
+<p>iDig maintains a “Trash” for each trench. Deleting items from a trench is a two-step process: the items have to be moved to the trash (using the action button) and then the trash has to be emptied.</p>
+
+<p>iDig maintains a “History” folder where trench snapshots are created periodically, providing a seven-day window of backups.</p>
+
+<p>iDig maintains a log of all Total Station points added to a trench, and they can quickly be recovered for a specific item by tapping the action button and selecting “Recover Points” from the menu.</p>
+
+<p>All iDig data is stored in the <a href="http://support.apple.com/en-us/HT201301">File Sharing</a> folder that can be accessed via iTunes. This data becomes part of the normal iTunes device backup (which is stored on your computer or in iCloud depending on your iTunes backup preferences). Trenches and plans can also be copied between devices using the shared folder, and backup snapshots can be made by simply copying the contents of the File Sharing folder.</p>
+
+<p><em>Tip: Using Trenchmates to keep data synchronized between devices is probably the easiest method of maintaining multiple copies of your data (in accord with the LOCKSS principle: Lots Of Copies Keep Stuff Safe: “… but let us save what remains: not by vaults and locks which fence them from the public eye and use, in consigning them to the waste of time, but by such a multiplication of copies, as shall place them beyond the reach of accident.” -Thomas Jefferson, Feb. 18, 1791).</em></p>
+
+<h2>Exporting Data</h2>
+
+<p>Trenches can be exported into a simple UTF–8 tab-delimited text file via a web browser (when Trenchmates is enabled). This basic text format can be easily imported into other applications such as Excel, Access, and Filemaker, and can be manipulated with UNIX tools into web-hosted databases such as Postgres and SOLR.</p>
+
+<p><em>Technical Description: The output format of this tab-delimited file uses the newline character ‘\n’ to separate rows (records) and the tab character ‘\t’ to separate columns (fields). Any newlines and tabs found inside columns will be escaped (e.g. “\\t” and “\\n”). The first line of the file is a list of column (field) names.</em></p>
+
+<h2>Importing Data</h2>
+
+<p>iDig will attempt to import any file ending in “.csv” or “.tab” that it finds in the <a href="http://support.apple.com/en-us/HT201301">File Sharing</a> folder. Most spreadsheet programs (such as Excel and Numbers) can import and export these comma-separated and tab-delimited file formats. iDig will assume that the field names used in the import file are the same as those used in the export file.</p>
+
+<p>Some care should be taken when importing data. At present, iDig works comfortably with 500–1000 items per trench (depending on the mobile device’s memory capacity). Importing too many records can overload the mobile device. iDig will alert you when the device is running low on memory.</p>
+
+<h2>Technical Details</h2>
+
+<p>iDig stores all configuration data in the Preferences.json file located in the <a href="http://support.apple.com/en-us/HT201301">File Sharing</a> folder. Custom fields and controlled vocabulary lists can be added to this file. The format of this file may change in the future.</p>
+
+<p>For connecting wirelessly to Leica Total Stations, the current implementation uses battery-powered <a href="https://serialio.com/products/wifi/wisnap-dongles/wisnap-aaa-wifi-dongle">WiSnap</a> RS–232 Serial to Wireless dongles. Total Station system settings should be set at RS–232 output, GSI–16 Mask 2, and communication settings should be set at 9600 baud, 8 bit, no parity, 1 stop bit. iDig listens on the default WiSnap port 55555 for heartbeat packets and uses these packets to identify nearby Total Stations. WiSnap comm settings for open and close messages should be set to zero (e.g. “set comm close 0” and “set comm open 0”).</p>
+
+<h2>Under Development</h2>
+
+<ul>
+<li>Add support for image and drawing item types.</li>
+<li>Add support for 64 bit coordinates.</li>
+<li>Add support for Bluetooth Total Stations.</li>
+<li>Stabilize field names and import/export data types.</li>
+</ul>
+
+<h2>Acknowledgments</h2>
+
+<p>Special thanks goes out to the field supervisors, assistants, and diggers at the Athenian Agora Excavations who have provided valuable testing and feedback, especially Mike Laughy, Matt Baumann, James Artz, Laura Gawlinski, Brian Martens, Nicholas Seetin, Marcie Handler, Daniele Pirisino, and Johanna Hobratschk. To Thierry Theurillat, a programmer's dream beta-tester. To Anne Hooton for creating the application icon and color palettes. To Molly Richardson, the best editor in the world. And to John Camp, the excavation director, for his constant and enthusiastic support of this project. </p>
+
+<center><small>For feedback, questions, bug reports, etc. please contact <a href="mailto:idig@agathe.gr">idig@agathe.gr</a>.</small></center>
+
+</article>
+	
+	<br/>
+	<br/>
+
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+	
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  
+	  ga('create', 'UA-7566414-7', 'auto');
+	  ga('send', 'pageview');
+	  
+	</script>
+    </body>
+</html>
